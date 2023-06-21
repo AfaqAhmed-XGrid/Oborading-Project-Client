@@ -1,0 +1,25 @@
+.btn:hover {
+    background-position: right center;
+}
+
+.btn {
+    border-radius: 0.4rem;
+    width: 100%;
+    text-align: center;
+    text-justify: auto;
+    font-size: 1rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.9rem 1.6rem;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    background-image: linear-gradient(to right, #fc00ff 0%, #fbc2eb 50%, #fbc2eb 40%, #fc00ff 100%);
+    color: #fff;
+    transition: 0.5s;
+    background-size: 200% auto;
+    place-content: center;
+    text-transform: uppercase;
+  }
